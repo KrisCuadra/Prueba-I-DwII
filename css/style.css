@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+--color-subtitulos:#888585;
+--color-titulos:#3c3838;
+--color-numeros:#e6e8eb;
+--color-azul:#19adf4;
+--fondo-gris:#f3f3f3;
+--fondo:#383737;
+--color-footer:#fff;
+}
+#header{
+	position: absolute;
+	z-index: 2000;
+	width: 100%
+}
+
+#hero{background-image: url("../img/header_bg.jpg"); 
+background-position:top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+	padding: 15% 0 20%;
+	text-align: center;
+	position: relative;
+}
+
+#hero h1 {
+	color: #FFFFFF;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+	
+
